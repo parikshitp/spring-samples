@@ -13,6 +13,6 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 	<bean name="dummyBean2" class="com.divergentsl.ioc.annotationconfig.required.DummyBean2">
 	 <!--  <property name="dummyBean" ref="dummyBean"/> -->
 	</bean>
-	<!-- <bean name="dummyBean" class="com.divergentsl.ioc.annotationconfig.required.DummyBean"/> -->
+	<bean name="dummyBean" class="com.divergentsl.ioc.annotationconfig.required.DummyBean"/>
 	
 </beans>

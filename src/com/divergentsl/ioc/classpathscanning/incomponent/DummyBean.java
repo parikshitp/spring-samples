@@ -19,5 +19,5 @@ public class DummyBean {
 	public DummyBean(String name) {
 		this.name = name;
 	}
-	
+		
 }

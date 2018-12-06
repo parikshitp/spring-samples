@@ -6,7 +6,7 @@
 	<!-- declare the property place holder -->
 	<bean
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="locations" value="classpath:com/divergentsl/ioc/beanfactorypostprocessor/value.properties"/>
+		<property name="locations" value="classpath:value.properties"/>
 	</bean>
 
 	<bean id="dummy" class="com.divergentsl.ioc.beanfactorypostprocessor.DummyBean">

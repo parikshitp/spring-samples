@@ -1,5 +1,6 @@
 package com.divergentsl.ioc.annotationconfig.required;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Required;
 
 public class DummyBean2 {
@@ -12,6 +13,7 @@ public class DummyBean2 {
 	}
 
 	@Required
+	//@Autowired //TODO remove this comment to avoid exception
 	public void setDummyBean(DummyBean dummyBean) {
 		this.dummyBean = dummyBean;
 	}
